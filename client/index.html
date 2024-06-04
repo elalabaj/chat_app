@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel=stylesheet href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="chat-box">
+            <h2 id="username"></h2>
+            <div class="scrollable">
+                <div class="messages" id="messages"></div>
+            </div>
+            <div class="message-box">
+                <textarea type="text" class="message-input" id="message-input" placeholder="Type message..."></textarea>
+                <button class="button-send" id="button-send">Send</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="dist/index.js"></script>
+</body>
+
+</html>
